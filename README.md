@@ -82,6 +82,3 @@ Each notebook in `notebooks/02_mpv_trac/` (named `TXUY.ipynb`) loads the best Ph
 - **Code** (notebooks, scripts): [MIT License](LICENSE)
 - **Data and figures**: [Creative Commons Attribution 4.0 International (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-## Acknowledgments
-
-This work was supported by the National Council of Justice of Brazil (CNJ), which provides access to the Codex data lake. The authors acknowledge the judges, judicial analysts, and domain specialists who participated in the focus group sessions of the initial study and of the present one.
