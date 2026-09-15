@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite as below."
+title: "MPV-TraC Experiment: Multi-Perspective Validated Trace Clustering of Brazilian Judicial Event Logs"
+version: "1.0.0"
+date-released: "2026-08-14"
+type: dataset
+# Zenodo accepts a single SPDX identifier here, and this deposit is a dataset,
+# so the record-level license is the one covering the data. The source code in
+# notebooks/ and data/anonymization/ is licensed under MIT; see LICENSE.
+license: CC-BY-4.0
+url: "https://github.com/tsa2ufpe/mpv-trac-experiment"
+authors:
+  - given-names: Thiago
+    name-particle: de Sousa
+    family-names: "Araújo"
+    orcid: "https://orcid.org/0000-0002-2408-5059"
+  - given-names: Ana Sofia
+    family-names: Lima
+  - given-names: "José Danilo"
+    name-particle: Silva do
+    family-names: Carmo
+  - given-names: "Raphael José"
+    family-names: "D'Castro"
+  - given-names: Ricardo Massa Ferreira
+    family-names: Lima
+keywords:
+  - process mining
+  - process discovery
+  - trace clustering
+  - process variant analysis
+  - multi-perspective process mining
+  - judicial event logs
+  - artificial intelligence and law
+  - HDBSCAN
+  - reproducible research
+preferred-citation:
+  type: article
+  title: "Multi-Perspective Validated Trace Clustering on Judicial Event Logs: A Cross-Specialization Empirical Study"
+  authors:
+    - given-names: Thiago
+      name-particle: de Sousa
+      family-names: "Araújo"
+      orcid: "https://orcid.org/0000-0002-2408-5059"
+    - given-names: Ana Sofia
+      family-names: Lima
+    - given-names: "José Danilo"
+      name-particle: Silva do
+      family-names: Carmo
+    - given-names: "Raphael José"
+      family-names: "D'Castro"
+    - given-names: Ricardo Massa Ferreira
+      family-names: Lima
+  journal: "Data Mining and Knowledge Discovery"
+  year: 2026
+  notes: "Submitted for review"

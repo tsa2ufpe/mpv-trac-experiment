@@ -1,0 +1,20 @@
+# All files are tracked with regular Git; no LFS required.
+# Event logs are stored gzip-compressed (~13% of original size) to fit
+# comfortably within standard GitHub repository limits.
+
+# Normalize line endings
+* text=auto eol=lf
+
+# Text types
+*.csv text
+*.md text
+*.py text
+*.yml text
+*.yaml text
+*.cff text
+*.ipynb text
+
+# Binary types
+*.png binary
+*.pdf binary
+*.csv.gz binary

@@ -1,0 +1,29 @@
+name: mpv-trac
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  # Core scientific stack
+  - numpy>=1.24
+  - pandas>=2.0
+  - scipy>=1.10
+  # Machine learning and clustering
+  - scikit-learn>=1.4         # provides KMeans, AgglomerativeClustering, DBSCAN, HDBSCAN, TSNE
+  # Visualization
+  - matplotlib>=3.7
+  - seaborn>=0.13
+  - plotly>=5.18              # used by some comparative figures
+  # Notebooks
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - tqdm
+  # File I/O
+  - openpyxl                  # for occasional Excel reads
+  # Process mining (installed via pip — pm4py is not on conda-forge)
+  - pip:
+      - pm4py>=2.7            # process discovery, conformance checking, heuristics nets
+      - python-docx>=1.0      # for occasional document generation
+      - graphviz              # required by pm4py for visualization
