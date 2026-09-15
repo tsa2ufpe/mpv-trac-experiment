@@ -1,4 +1,4 @@
-# MPV-TraC — Multi-Perspective Validated Trace Clustering for Judicial Event Logs
+# MPV-TraC: Multi-Perspective Validated Trace Clustering for Judicial Event Logs
 
 This repository contains the data, code, and results of the cross-specialization empirical study of the **MPV-TraC** (Multi-Perspective Validated Trace Clustering) methodology applied to Brazilian judicial event logs.
 
